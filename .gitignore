@@ -1,0 +1,72 @@
+# === Python ===
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+wheels/
+*.whl
+.eggs/
+
+# === Virtual environment ===
+venv/
+.venv/
+env/
+.env/
+
+# === Django ===
+db.sqlite3
+db.sqlite3-journal
+*.log
+local_settings.py
+media/
+staticfiles/
+static_root/
+
+# === Environment variables ===
+.env
+.env.*
+!.env.example
+
+# === IDEs ===
+.vscode/
+.idea/
+*.iml
+*.suo
+*.user
+*.swp
+*.swo
+*~
+
+# === macOS ===
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# === Windows ===
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# === Testing & coverage ===
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+
+# === Claude Code ===
+.claude/settings.local.json
+
+# === Type checkers / linters ===
+.mypy_cache/
+.dmypy.json
+.ruff_cache/

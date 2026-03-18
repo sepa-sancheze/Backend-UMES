@@ -1,0 +1,16 @@
+line-length = 100
+exclude = ["*/migrations/*.py"]
+
+[lint.per-file-ignores]
+"*/management/commands/seed.py" = ["E501"]
+
+[lint]
+select = ["E", "F", "Q"]
+
+[lint.flake8-quotes]
+inline-quotes = "single"
+multiline-quotes = "single"
+docstring-quotes = "double"
+
+[format]
+quote-style = "single"
